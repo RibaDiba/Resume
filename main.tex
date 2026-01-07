@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small #1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Abir Modak} \\ \vspace{1pt}
+    \small 732-983-8632 $|$ \href{mailto:amodak@terpmail.umd.edu}{\underline{amodak@terpmail.umd.edu}} $|$ 
+    \href{https://www.linkedin.com/in/abir-modak-b7151328b}{\underline{linkedin.com/in/abir-modak-b7151328b}} $|$
+    \href{https://github.com/RibaDiba}{\underline{github.com/RibaDiba}}
+\end{center}
+
+%-----------EDUCATION-----------
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Maryland, College Park}{College Park, MD}
+      {Bachelor of Science in Computer Science}{}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Object Oriented Programming I, Object Oriented Programming II, Linear Algebra, Discrete Structures (Spring 2026), Introduction to Computer Systems (Spring 2026)}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Undergraduate Researcher}{Aug. 2024 -- Present}
+      {Princeton University}{Princeton, NJ}
+      \resumeItemListStart
+        \resumeItem{Built instance segmentation model using Detectron2 to segment cancer tumors; achieving 91\% mean IOU}
+        \resumeItem{Developed a novel segmentation approach by normalizing depth information into the blue color channel; increasing IOU by 7.8\%}
+        \resumeItem{Created an annotation methodology with pytest validations for a series of 5000 raw images. }
+        \resumeItem{Automated model training through Slurm and bash scripts, creating pipelines for 3 different approaches}
+        \resumeItem{Presented key findings at the\textbf{ MIT Undergraduate Research and Technology Conference}.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+        {Undergraduate Researcher}{Sept. 2025 -- Present}
+        {University of Maryland -- College Park}{College Park, MD}
+        \resumeItemListStart
+            \resumeItem{Investigating computational methods and high-performance computing (HPC) techniques for climate modeling under faculty guidance}
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {Frontend Engineer}{Sept. 2025 -- Present}
+        {TerpLabs}{College Park, MD}
+        \resumeItemListStart
+            \resumeItem{Developing a full-stack apartment subleasing platform using Next.Js; for the UMD community.}
+            \resumeItem{Designed a Zillow-inspired user interface using Figma, creating a platform for students to post their subleases professionally.}
+            \resumeItem{Implemented a search by location feature using Google Maps Api, serving the needs for location based apartment searching.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+        {\textbf{Data Flagging System for Mice Tumors} $|$ \emph{Next.js, Google Sheets}}{Sept. 2025 -- Dec. 2025}
+        \resumeItemListStart
+            \resumeItem{Created a web app with Next.js to aid in data cleaning mice tumors from training set}
+            \resumeItem{Implemented multi-user functionality through state management, allowing different users to input their flags}
+            \resumeItem{Integrated the Google Sheets API via a service worker for real-time, persistent data storage and easy access.}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\textbf{Inventory Management System} $|$ \emph{Sveltekit, Node.js, Express.js, MongoDB}}{Nov. 2023 -- June 2025}
+      \resumeItemListStart
+        \resumeItem{Created an inventory management system with Sveltekit, Express.js, and MongoDB to store robotics components.}
+        \resumeItem{Streamlined inventory across storage rooms for tools, equipment, and parts for my First Robotics Team.}
+        \resumeItem{Implemented in school's workshop, aiding students taking electrical/robotics coursework with storing components}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Automated Hackathon Registration System} $|$ \emph{Discord.js, Google Apps Script, Node.js}}{Nov. 2023 -- June 2025}
+      \resumeItemListStart
+        \resumeItem{Automated hackathon registration with Discord.js and Google Apps Script to manage 200+ members. }
+        \resumeItem{Created discord bot to query google sheets to verify users and assign roles, streamlining workflow for organizers.}
+        \resumeItem{Added user interactive features, allowing participant engagement and streamlined management for organizers.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{FRC Strategy Tool} $|$ \emph{Sveltekit, Node.js}}{Sept. 2022 -- May 2025}
+      \resumeItemListStart
+        \resumeItem{Developed a strategy web app with Sveltekit for a First Robotics team, achieving 17/60th at the state level.}
+        \resumeItem{Engineered an offline-first data transfer system using QR codes, enabling reliable data collection in arena environments.}
+        \resumeItem{Integrated 3rd-party data into the dashboard, enabling improved decisions alongside user collected data.}
+        
+  \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  %----------- SKILLS -----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\item \small
+  \textbf{Languages:} Python, C++, Java, Javasript, MATLAB \\
+  \textbf{Frameworks:} \textit{AI/ML/CV:} PyTorch, Detectron2, OpenCV, YOLO; \textit{\textbf{Web:}} Figma, Node.js, React.js, SvelteKit, Express.js \\
+  \textbf{Developer Tools:} Git, GitHub, Conda, Linux, Slurm (sbatch), Raspberry Pi, Arduino
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
