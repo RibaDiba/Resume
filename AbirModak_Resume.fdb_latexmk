@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1768209061.41315 "/Users/abirmodak/Documents/resume/repo/AbirModak_Resume.tex" "AbirModak_Resume.pdf" "AbirModak_Resume" 1768209061.82251 0
-  "/Users/abirmodak/Documents/resume/repo/AbirModak_Resume.tex" 1768208942.08087 8388 f527917964bd938c37f8edc1e58fac74 ""
+["pdflatex"] 1769209259.4224 "/Users/abirmodak/Documents/resume/repo/AbirModak_Resume.tex" "AbirModak_Resume.pdf" "AbirModak_Resume" 1769209259.82753 0
+  "/Users/abirmodak/Documents/resume/repo/AbirModak_Resume.tex" 1769209258.87966 8390 fbc39c8bd260576056ed21225076b88a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -87,9 +87,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1768198096 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "AbirModak_Resume.aux" 1768209061.78907 701 40152d99bdd71d89bc41b9ceffe2457e "pdflatex"
-  "AbirModak_Resume.out" 1768209061.7897 337 7da66cbf4db6747adcd9fdec91cec702 "pdflatex"
-  "AbirModak_Resume.tex" 1768208942.08087 8388 f527917964bd938c37f8edc1e58fac74 ""
+  "AbirModak_Resume.aux" 1769209259.79539 701 c436136141531146d5ce3bb64b52f601 "pdflatex"
+  "AbirModak_Resume.out" 1769209259.79605 337 7da66cbf4db6747adcd9fdec91cec702 "pdflatex"
+  "AbirModak_Resume.tex" 1769209258.87966 8390 fbc39c8bd260576056ed21225076b88a ""
   (generated)
   "AbirModak_Resume.aux"
   "AbirModak_Resume.log"
